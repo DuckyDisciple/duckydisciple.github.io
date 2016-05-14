@@ -1,0 +1,79 @@
+#-------------------------------
+# General Site Settings
+
+title: 2S Design &amp; Development
+description: "Enhance your online presence"
+email: support@2sbros.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About, url: '#about-me'}
+# - {name: Projects, url: '#work'}
+- {name: Contact, url: '#contact'}
+
+lang-menu:
+- {name: "<p>EN</p>", class: 'en lang-selected' }
+# - {name: "<p>日</p>", class: 'jp' }
+# - {name: "<p>한</p>", class: 'kr'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: '2S LLC Web Design'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-77716137-1
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurbEN: >
+  2S is a web design and development company founded by 2 brothers, Eric and Drew Sartorius. Eric focuses on design while drew's strength lies in development.
+   With their powers combined, they are ready to build the ultimate website for your small business. Contact 2S now for a consultation!
+
+  
+
+# skills:
+# - {name: Communication, value: '9'}
+# - {name: Organization, value: '7'}
+# - {name: Learning, value: '10'}
+# - {name: Teaching, value: '6'}
+# - {name: Planning, value: '7'}
+# - {name: Visual Design, value: '5'}
+# - {name: UX Design, value: '8'}
+# - {name: Programming, value: '6'}
+
+#-------------------------------
+# Work Section
+
+# projects:
+# - {name: U-Judge, folder: 'proj-1', file: 'work/proj-1.html'}
+# - {name: Bloc Time, folder: 'proj-2', file: 'work/proj-2.html'}
+# - {name: Bloc Pong, folder: 'proj-3', file: 'work/proj-3.html'}
+# - {name: Bloc Jams, folder: 'proj-4', file: 'work/proj-4.html'}
+# - {name: Google Simon, folder: 'proj-5', file: 'work/proj-5.html'}
+# - {name: Impossible Tic Tac Toe, folder: 'proj-6', file: 'work/proj-6.html'}
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'facebook', link: 'https://github.com/2sbros'}
+- {icon: 'twitter', link: 'http://twitter.com/2sbros'}
+- {icon: 'instagram', link: 'https://instagram.com/2sbros'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine' 
