@@ -9,7 +9,7 @@ email: duckydesign@gmail.com
 
 menu:
 - {name: About, url: '#about-me'}
-- {name: Projects, url: '#work'}
+- {name: Projects, url: '#projects'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
