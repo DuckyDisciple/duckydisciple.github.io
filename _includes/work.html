@@ -2,7 +2,7 @@
 
   <h2 id="work">Projects</h2>
   {% for project in site.data.settings.projects %}
-    <input type="radio" name="trigger" class="trigger" id="{{ project.folder }}" />
+    <input type="radio" name="trigger" class="trigger" id="{{ project.id }}" />
   {% endfor %}
 
   <input type="radio" name="trigger" id="return" class="return" />
@@ -12,9 +12,9 @@
     <div class="thumb-wrap">
       <div class="thumb-container">
       {% for project in site.data.settings.projects %}
-      <label for="{{ project.folder }}">
+      <label for="{{ project.id }}">
         <div class="thumb-unit" data-folder="{{ project.folder }}">
-          <img src="assets/img/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
+          <img src="assets/img/work/{{project.id}}/thumb.jpg" alt="{{ project.name }}" />
         </div>
         <div class="thumb-overlay">
           <strong>{{ project.name }}</strong>
@@ -34,10 +34,10 @@
 
       <noscript>
         {% for project in site.data.settings.projects %}
-          <div class="noscript" id="content-{{ project.folder }}">
+          <div class="noscript" id="content-{{ project.id }}">
             <h4 class="project-title">{{ project.name }}</h4>
             <div class="noscript-load">
-              {% include {{project.file}} %}
+              {% include {{project.link}} %}
             </div>
           </div>
         {% endfor %}
