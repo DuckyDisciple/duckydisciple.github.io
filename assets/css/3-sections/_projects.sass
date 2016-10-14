@@ -1,0 +1,43 @@
+#section-projects
+  background: #ccc
+  margin: 0
+  padding: 10px
+.header
+  text-align: center
+.project-holder
+  display: flex
+  justify-content: center
+.project
+  width: 400px
+  height: 200px
+  margin: 20px
+  overflow: hidden
+  position: relative
+  .info
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    .meta
+      box-sizing: border-box
+      background: #336699
+      width: 100%
+      height: 130px
+      bottom: -90px
+      transition: bottom .5s ease
+      -webkit-transition: bottom .5s ease
+      position: absolute
+      color: white
+      padding: 10px
+      .title
+        text-align: right
+        margin: 0
+        padding-bottom: 5px
+      .desc
+        text-align: center
+  img
+    width: 100%
+.project:hover
+  .meta
+    bottom: 0
