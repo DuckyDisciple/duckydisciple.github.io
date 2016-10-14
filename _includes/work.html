@@ -1,6 +1,6 @@
 <section class="section-work">
 
-  <h2 id="work">Projects</h2>
+  <h2 id="projects">Projects</h2>
   {% for project in site.data.settings.projects %}
     <input type="radio" name="trigger" class="trigger" id="{{ project.id }}" />
   {% endfor %}
@@ -13,7 +13,7 @@
       <div class="thumb-container">
       {% for project in site.data.settings.projects %}
       <label for="{{ project.id }}">
-        <div class="thumb-unit" data-folder="{{ project.folder }}">
+        <div class="thumb-unit" data-folder="{{ project.id }}">
           <img src="assets/img/work/{{project.id}}/thumb.png" alt="{{ project.name }}" />
         </div>
         <div class="thumb-overlay">
