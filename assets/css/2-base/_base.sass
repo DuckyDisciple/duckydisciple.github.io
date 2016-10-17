@@ -3,7 +3,6 @@
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6
-  color: $headlineColor
   font-weight: bold
 
 .gigantic
@@ -32,7 +31,11 @@ h1, h2, h3, h4, h5, h6
   font-size: 10px
   line-height: 1.2
 
+.dark-headline
+  color: $darkHeadlineColor
 
+.light-headline
+  color: $lightHeadlineColor
 
 p
   margin: 0 0 20px 0
@@ -87,11 +90,11 @@ body
 /* Basic Styles
   ------------------------------------	*/
 body
-  background: $grey
+  background: $documentBackgroundColor
   font-size: 14px
   line-height: 1.6
   font-family: 'Lato', sans-serif
-  color: $textColor
+  color: $darkTextColor
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
 
@@ -100,7 +103,7 @@ svg
 
 h2
   font-weight: 300
-  color: $teal
+  color: $accent
   text-align: center
   padding: 100px 0 30px
 
@@ -114,22 +117,22 @@ fieldset
     padding: 50px 0 50px
 
 .section-about
-  background: $grey
+  background: $lightSectionColor
   padding-bottom: 100px
   h2
-    color: $teal
+    color: $darkSectionColor
     
 .section-work
+  background: $darkHeadlineColor
+  padding-bottom: 100px
+  h2
+    color: $lightHeadlineColor
+    
+.section-contact
   background: white
   padding-bottom: 100px
   h2
-    color: $teal
-    
-.section-contact
-  background: lighten($darkblue,10%)
-  padding-bottom: 100px
-  h2
-    color: $grey
+    color: $darkHeadlineColor
     
 .section-form
   background: $grey
