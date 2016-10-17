@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: Drew Sartorius
-description: "A portfolio for some projects Drew has created and worked on."
+description: "Developing solutions with your vision in mind"
 email: duckydesign@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
@@ -38,18 +38,18 @@ google-analytics-ua: UA-85728810-1
 blurb: >
   Drew has been creating, developing, and exploring the coding world for over 10 years. What started as a passion for making some of the
    weirdest, yet somehow entertaining flash games eventually turned into developing websites, web and Android apps, and creating solutions
-   for any technological issue. Drew also has a heart for church planting and spends a lot of time helping to build and develop systems and
-   solutions for churches.
+   for any technological issue. Drew also has a heart for church planting and spends a lot of time creating and developing systems 
+   that help support the vision of the church.
   
 
 #-------------------------------
 # Work Section
 
 projects:
-- {name: 'Milton Scales Site', id: 'web1', desc: 'One of my websites I made for a client', link: 'http://www.miltonscales.com'}
-- {name: 'Formerly Bodies Site', id: 'web3', desc: 'A simple band page for a rising artist', link: 'http://www.formerlybodies.net'}
-- {name: 'Element Church', id: 'web2', desc: 'A site I have been keeping up to date and doing some developing for', link: 'http://theelement.church'}
-- {name: 'Stalk Market', id: 'full1', desc: 'Full stack experiment including 3rd party API, data visualization, and live updates via sockets', link: 'https://fcc-stocks-duckydisciple.herokuapp.com'}
+- {name: 'Milton Scales Site', id: 'web1', desc: 'A Wordpress site I designed and developed for a client', link: 'http://www.miltonscales.com'}
+- {name: 'Formerly Bodies Site', id: 'web3', desc: 'A simple band page I created for a rising artist', link: 'http://www.formerlybodies.net'}
+- {name: 'Element Church', id: 'web2', desc: 'A Wordpress site I have been keeping up to date and doing some developing for', link: 'http://theelement.church'}
+- {name: 'Stalk Market', id: 'full1', desc: 'A full stack experiment including 3rd party API, data visualization, and live updates via sockets', link: 'https://fcc-stocks-duckydisciple.herokuapp.com'}
 - {name: 'Dungeon Game', id: 'react1', desc: 'An experiment of a web browser game built entirely in React', link: 'https://codepen.io/DuckyDisciple/full/oxBqgQ/'}
 # - {name: Impossible Tic Tac Toe, folder: 'proj-6', file: 'work/proj-6.html'}
 
