@@ -15,8 +15,8 @@ accent: "lighten(#1b4662, 20%)"
 
 
 textColor: "#666"
-headlineColor: "#333"
-bgcolor: "#e5eaee"
+headlineColor: "#CFD8DC"
+bgcolor: "#546E7A"
 documentBackgroundColor: "#fff"
 
 darkblue: "#0a2334"
