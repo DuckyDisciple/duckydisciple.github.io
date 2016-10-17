@@ -10,13 +10,16 @@ animation: "bounceOut"
 
 # Colors
 
-accent: "lighten(#1b4662, 20%)"
+accent: "#3c948b"
 
 
 
-textColor: "#666"
-headlineColor: "#CFD8DC"
-bgcolor: "#546E7A"
+darkTextColor: "#666"
+lightTextColor: "#fff"
+darkHeadlineColor: "#37474F"
+lightHeadlineColor: "#CFD8DC"
+lightSectionColor: "#CFD8DC"
+darkSectionColor: "#37474F"
 documentBackgroundColor: "#fff"
 
 darkblue: "#0a2334"
