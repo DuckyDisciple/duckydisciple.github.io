@@ -25,7 +25,7 @@
 
   <div class="social-links">
     {% for link in site.data.settings.social %}
-    <a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
+    <a href="{{ link.link }}"><i class="fa fa-{{ link.icon }}"></i></a>
     {% endfor %}
   </div>
 
