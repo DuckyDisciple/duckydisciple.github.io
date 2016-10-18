@@ -56,10 +56,13 @@
     width: 100%
     opacity: 0.7
     filter: saturate(10%)
-    transition: filter .5s ease
-    -webkit-transition: filter .5s ease
+    transition: filter .5s ease, opacity .5s
+    -webkit-transition: filter .5s ease, opacity .5s
 
 .project:hover
   .meta
     bottom: 0
     opacity: 0.9
+  img
+    filter: saturate(100%)
+    opacity: 1
