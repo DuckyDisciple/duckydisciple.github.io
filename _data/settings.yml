@@ -8,9 +8,9 @@ email: duckydesign@gmail.com
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About, url: '#about-me'}
-- {name: Projects, url: '#projects'}
-- {name: Contact, url: '#contact'}
+- {name: 'Meet Drew', url: '#about-me'}
+- {name: 'Recent Work', url: '#projects'}
+- {name: 'Get in Touch', url: '#contact'}
 
 #-------------------------------
 # SEO Section
