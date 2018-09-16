@@ -48,10 +48,10 @@ blurb: >
 
 projects:
 - {name: 'Milton Scales Site', id: 'web1', desc: 'A Wordpress site I designed and developed for a client', link: 'http://www.miltonscales.com'}
-- {name: 'Formerly Bodies Site', id: 'web3', desc: 'A simple band page I created for a rising artist', link: 'http://www.formerlybodies.net'}
 - {name: 'Element Church', id: 'web2', desc: 'A Wordpress site I have been keeping up to date and doing some developing for', link: 'http://theelement.church'}
 - {name: 'Stalk Market', id: 'full1', desc: 'A full stack experiment including 3rd party API, data visualization, and live updates via sockets', link: 'https://fcc-stocks-duckydisciple.herokuapp.com'}
 - {name: 'Dungeon Game', id: 'react1', desc: 'An experiment of a web browser game built entirely in React', link: 'https://codepen.io/DuckyDisciple/full/oxBqgQ/'}
+- {name: 'Project Logion', id: 'unity1', desc: 'A new project I am working on to gamify Bible Study.', link: '#unity1'}
 # - {name: Impossible Tic Tac Toe, folder: 'proj-6', file: 'work/proj-6.html'}
 
 #-------------------------------
